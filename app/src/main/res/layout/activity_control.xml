@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.filters_app.ControlActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ImageView
+        android:id="@+id/centralimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar2"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="@dimen/pad"
+        android:paddingLeft="@dimen/pad"
+        android:paddingRight="@dimen/pad"
+        android:paddingTop="@dimen/fab_margin"
+        app:srcCompat="@drawable/img3_mdpi" />
+
+    <LinearLayout
+        android:id="@+id/centrallayout1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/centralimage"
+        android:layout_marginTop="14dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="67dp"
+            android:layout_height="38dp"
+            app:srcCompat="@drawable/cross_img" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.17"
+            android:progressDrawable="@drawable/seekbar_layer"
+            android:thumb="@drawable/thumb" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="70dp"
+            android:layout_height="39dp"
+            app:srcCompat="@drawable/tick_img" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/centrallayout1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            app:srcCompat="@drawable/img3_effect1" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/img3_effect2" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="97dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/img3_effect3" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="97dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/img3_effect4" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

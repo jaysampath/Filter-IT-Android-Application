@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Filter IT</string>
+    <string name="title_activity_control">ControlActivity</string>
+
+    <string name = "permission_title">Permission</string>
+    <string name="permission_control">You need to give Storage access to safely store your filtered images</string>
+    <string name="permission_granted_control">Storage permission has been granted!</string>
+    
+    <string name="Permission_agree">Yes</string>
+    <string name="Permission_agree_settings">Go to Settings</string>
+    <string name="Permission_cancel">Cancel</string>
+
+</resources>
