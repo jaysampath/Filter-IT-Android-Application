@@ -1,5 +1,5 @@
 # Filter-IT-Android-Application
-Filter IT is a Basic Editing App where user can apply various filters for his images from gallery. This app has a splash screen. User can adjust amount filter to images dynamically and store them in a new directory after editing.
+Filter IT is a Basic Editing App where user can apply various filters for his images from gallery. This app has a splash screen. User can adjust amount filter to images dynamically and save them to his Gallery.
 
 android specification{
 
