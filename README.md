@@ -8,7 +8,7 @@ Filter IT is a Basic Editing App where user can apply various filters for his im
 <li> Image Handling Library - Picasso || 
   <li> Android PhotoFilter Library - Zomato
 
-Android Specification:
+
 
   <li> compileSdkVersion - 25 </li>
   <li> buildToolsVersion - "30.0.3" </li>
